@@ -144,6 +144,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
+            InlineKeyboardButton("⚡ ᴛɪᴄ ᴍᴏᴠɪᴇs ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Movies_Bot"),
             InlineKeyboardButton("⚡ ᴛɪᴄ ᴡᴇʙ sᴇʀɪᴇs & ᴀɴɪᴍᴇ ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Web_Series_Anime_Bot")
         ])
     else:
@@ -441,6 +442,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
+        InlineKeyboardButton("⚡ ᴛɪᴄ ᴍᴏᴠɪᴇs ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Movies_Bot"),
         InlineKeyboardButton("⚡ ᴛɪᴄ ᴡᴇʙ sᴇʀɪᴇs & ᴀɴɪᴍᴇ ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Web_Series_Anime_Bot")
     ])
     # else:
@@ -801,6 +803,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
+        InlineKeyboardButton("⚡ ᴛɪᴄ ᴍᴏᴠɪᴇs ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Movies_Bot"),
         InlineKeyboardButton("⚡ ᴛɪᴄ ᴡᴇʙ sᴇʀɪᴇs & ᴀɴɪᴍᴇ ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Web_Series_Anime_Bot")
     ])
     # else:
@@ -1946,6 +1949,7 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton('❗❗  ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ  ❗❗', url="https://t.me/MoviesDuniya4U")
     #     ])
         btn.insert(0, [
+            InlineKeyboardButton("⚡ ᴛɪᴄ ᴍᴏᴠɪᴇs ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Movies_Bot"),
             InlineKeyboardButton("⚡ ᴛɪᴄ ᴡᴇʙ sᴇʀɪᴇs & ᴀɴɪᴍᴇ ʙᴏᴛ ⚡", url=f"https://t.me/TIC_Web_Series_Anime_Bot")
         ])
     # if ENABLE_TUTORIAL == True:
