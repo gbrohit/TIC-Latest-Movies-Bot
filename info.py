@@ -49,10 +49,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '3d2381ae2529f67464a13e6b4390e4cca9d0b478')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'gplinks.com')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '2c8b158c80fd0cb0da24974806c823375a40ec5a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '2c8b158c80fd0cb0da24974806c823375a40ec5a')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'linkshortify.com')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '3d2381ae2529f67464a13e6b4390e4cca9d0b478'
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
