@@ -23,7 +23,8 @@ youtube-search
 yt-dlp==2023.2.17
 
 #---imdb---#
-git+https://github.com/cinemagoer/cinemagoer
+cinemagoer==2022.12.27
+SQLAlchemy==1.4.46
 
 #---others----#
 opencv-python-headless==4.7.0.68
