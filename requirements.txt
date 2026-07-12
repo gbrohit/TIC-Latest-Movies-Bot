@@ -1,51 +1,94 @@
+# ===========================
 # Telegram
-pyrofork==2.3.68
+# ===========================
+pyrofork==2.3.43
 tgcrypto==1.2.5
 
-# Database
-motor==3.5.1
-pymongo==4.8.0
-
-# Web
-aiohttp==3.10.10
-aiofiles==24.1.0
+# ===========================
+# Async / HTTP
+# ===========================
+aiohttp==3.8.3
+aiofiles==22.1.0
 requests==2.32.3
-urllib3==2.2.3
+ujson==5.10.0
 
-# HTML/XML
-beautifulsoup4==4.12.3
-lxml==5.3.0
+# ===========================
+# Database
+# ===========================
+pymongo[srv]==3.12.3
+motor==2.5.1
+umongo==3.0.1
+marshmallow==3.14.1
+dnspython==2.3.0
 
-# Images
-Pillow==10.4.0
-
+# ===========================
 # IMDb
+# ===========================
 cinemagoer==2023.5.1
 SQLAlchemy==1.4.46
 
-# Utilities
-python-dotenv==1.0.1
-psutil==6.1.0
-pytz==2024.2
-shortzy==0.0.3
-umongo==3.1.0
-marshmallow==3.21.3
+# ===========================
+# Images / OCR
+# ===========================
+Pillow==9.4.0
+opencv-python-headless==4.7.0.68
+numpy==1.26.4
 
-# Search
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.26.0
+# ===========================
+# HTML / Parsing
+# ===========================
+beautifulsoup4==4.12.3
+lxml==5.2.2
 
-# Media
+# ===========================
+# Search / YouTube
+# ===========================
+youtube-search==2.1.2
+youtube-search-python==1.6.6
 yt-dlp==2024.10.22
 
-# Scheduler
-APScheduler==3.10.4
+# ===========================
+# Utilities
+# ===========================
+python-dotenv==1.0.1
+python-decouple==3.8
+shortzy
+humanize==4.6.0
+pytz
+psutil==5.9.4
+wget==3.2
 
-# Async
-uvloop==0.21.0; platform_system != "Windows"
+# ===========================
+# PDF
+# ===========================
+PyPDF2==3.0.1
 
-# Cryptography
-pycryptodome==3.21.0
+# ===========================
+# URL Shorteners
+# ===========================
+pyshorteners==1.0.1
+unshortenit==0.4.0
 
-# Parsing
-regex==2024.9.11
+# ===========================
+# Translation / Speech
+# ===========================
+googletrans==3.1.0a0
+gTTS==2.3.1
+
+# ===========================
+# Telegraph
+# ===========================
+telegraph==2.2.0
+
+# ===========================
+# Misc
+# ===========================
+countryinfo==0.1.2
+search_engine_parser==0.6.8
+speedtest-cli==2.1.3
+openai==0.25.0
+mdisky
+doodstream
+ytthumb
+YoutubeTags
+PyLeaves==1.0.2
