@@ -49,8 +49,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'nowshort.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '86668b40e4986c631ca9a2a56a0d85c1d35e9c63')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6d9f1e07b05e6c342098256cc0a8c3b9811a0f9b')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'linkshortify.com')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '3d2381ae2529f67464a13e6b4390e4cca9d0b478')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
