@@ -3,8 +3,8 @@ pyrofork==2.3.68
 tgcrypto==1.2.5
 
 # Database
-motor==3.6.0
-pymongo==4.9.2
+motor==3.5.1
+pymongo==4.8.0
 
 # Web
 aiohttp==3.10.10
@@ -29,6 +29,7 @@ psutil==6.1.0
 pytz==2024.2
 shortzy==0.0.3
 umongo==3.1.0
+marshmallow==3.21.3
 
 # Search
 fuzzywuzzy==0.18.0
